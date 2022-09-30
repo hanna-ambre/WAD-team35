@@ -82,7 +82,7 @@ li {
 /*Positions and styles the boxes on either side.*/
 .banner {
     margin: 0;
-    width: 10%;
+    width: 12%;
     background-color: #bfbfbf;
     border-radius: 15px;
     padding: 0 10px;
@@ -215,9 +215,13 @@ input[type="file"] {
 /* 
     Applies when the browser's width is less than 1000px wide: 
 */
-@media (max-width: 999px) {
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
+@media (max-width: 1199px) {
+    .banner {
+        display: none;
+    }
+    .middle {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
