@@ -85,18 +85,13 @@ li {
     width: 12%;
     background-color: #bfbfbf;
     border-radius: 15px;
-    padding: 0 10px;
+    
 }
 
 /*Positions the box in the middle.*/
 .middle {
     margin: auto;
     width: 70%;
-}
-
-/*Positions the posts in the middle.*/
-.avatar {
-    padding: 0;
 }
 
 /*Styles the posts in the middle.*/
