@@ -103,7 +103,8 @@ li {
 .post {
     background-color: #dadbdc;
     border-radius: 15px;
-    padding: .5em 15px;
+    padding: .5em 15px .9em;
+    margin-bottom: 15px;
 }
 
 /*Positions items in the post header.*/
