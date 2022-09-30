@@ -3,25 +3,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 3 - CSS</title>
+    <title>Homework 1 - add post</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <header class="header">
     <ul class="nav">
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Home</a></li>
     </ul>
     <a class="logo" href="#"><img src="images/me.png" width="50" height="50" alt="My picture"></a>
   </header>
 
   <body>
     <main>
-      <form>
-        <label for="post">Post body </label>
-        <input type="text" name="post" placeholder="textarea"><br>
-        <label for="file">Select file </label>
-        <input type="file" name="file"><br><br>
-        <input type="submit" value="Create post">
-      </form>
+      <div class="box_center">
+        <form action="index.html">
+          <div>
+            <label for="post">Post body </label>
+            <input type="text" id="text_box" name="post" placeholder="textarea"><br>
+          </div>
+          <div>
+            <label>Select file</label>
+            <label for="uploading-file" class="gray_button">Choose file</label>
+            <input id="uploading-file" type="file"/>
+          </div>
+          <div class="more_padding">
+            <input class="blue_button" type="submit" value="Create post">
+          </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>

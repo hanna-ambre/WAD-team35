@@ -1,0 +1,213 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: black;
+}
+
+/* Keeps header/footer touching the top/bottom of the page, instead of there being a gap.*/
+body {
+    line-height: 1.6;
+    margin: 0;
+}
+
+/*No padding and also no dots for lists.*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*Links aren't underlined*/
+a {
+    text-decoration: none;
+}
+
+/*Keeps header logo from touching the right side of the screen.*/
+.logo {
+    padding-right: 8px;
+}
+
+.header {
+    /*Header box color and padding.*/
+    background-color: #bfbfbf;
+    border-radius: 15px;
+
+    /*Header box is sticky.
+    position: sticky;
+    top: 0px;*/
+
+    /*Items in header box are in a row, stretched to the width of the screen.*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*All lists' items are shown in a row.*/
+li {
+    padding: 10px 10px;
+    text-align: left;
+    display: inline-block;
+    font-size: .99em;
+}
+
+/*Users can't select the little separating bar in the navigation.*/
+#separating_bar {
+    user-select: none;
+}
+
+/*Header and footer links' backgrounds change when hovering over them.*/
+.nav li a:hover {
+    background-color: #b0b0b0;
+    border-radius: 5px;
+}
+
+/*Header and footer links' backgrounds change when hovering over them.*/
+.nav li a {
+    padding: 10px 15px;
+}
+
+/*Positions the banners on the left and right with the posts in the center.*/
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: auto;
+
+    padding-top: .7em;
+    padding-bottom: .7em;
+}
+
+/*Positions and styles the boxes on either side.*/
+.banner {
+    margin: 0;
+    width: 10%;
+    background-color: #bfbfbf;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+/*Positions the box in the middle.*/
+.middle {
+    margin: auto;
+    width: 70%;
+}
+
+/*Positions the posts in the middle.*/
+.avatar {
+    padding: 0;
+}
+
+/*Styles the posts in the middle.*/
+.post {
+    background-color: #dadbdc;
+    border-radius: 15px;
+    padding: .5em 15px;
+}
+
+/*Positions items in the post header.*/
+.post-Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*Post header links' backgrounds change when hovering over them.*/
+.post-nav li a:hover {
+    background-color: #d9d8d8;
+}
+
+.post-pictures {
+    width: 100%;
+    height: 100%;
+}
+
+.reactions {
+    width: 35px;
+    height: 35px;
+}
+
+/*Adds a bit of padding between the header and the addPost and login pages.*/
+body main {
+    padding-top: 30px;
+}
+
+/*Positions and styles the boxes for pages addPost and login.*/
+.box_center {
+    background-color: #dadbdc;
+    border-radius: 15px;
+    padding: .5em 10px;
+
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*Positions Post body and Select file text to the left on the addPost page.*/
+form div {
+    text-align: left;
+    padding: 5px;
+}
+
+/*Positions certain links and buttons to the center and adds padding.*/
+.more_padding {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*Sizing and styling for text boxes in login screen.*/
+input[type="text"] {
+    padding: 5px;
+    border: none;
+}
+
+/*Makes a custom button instead of the standard Choose file one.*/
+input[type="file"] {
+    display: none;
+}
+.gray_button {
+    background-color: #7f7f7f;
+    color: white;
+    padding: .1em .3em;
+    border: #616161;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/*Sizing for the large text box in addPost.*/
+#text_box {
+    padding: 5px 30px 50px 5px;
+}
+
+/*Some buttons are blue.*/
+.blue_button {
+    background-color: #324c86;
+    color: white;
+    padding: .4em;
+    border: #324c86;
+    cursor: pointer;
+}
+
+/*Occasional blue text.*/
+.blue_text {
+    color: #4faeef;
+}
+
+/*Styles and positions the footer box.*/
+.footer {
+    text-align: center;
+    background-color: #bfbfbf;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 15px;
+}

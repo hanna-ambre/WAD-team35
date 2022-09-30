@@ -4,60 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="res/images/favicon.ico">
-    <title>Lab 3 - CSS</title>
-    <link rel="stylesheet" href="res/css/style.css">
+    <title>Homework 1 - index</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 <header class="header">
     <ul class="nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">AddPost</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li id="separating_bar">|</li>
+        <li><a href="addPost.html">AddPost</a></li>
     </ul>
 
     <a class="logo" href="#"><img src="images/me.png" width="50" height="50" alt="My picture"></a>
 </header>
 
-<div class="left">
-    <p>Here i will put a picture</p>
-</div>
-
-<div class="center">
-    <div class="post">
-        <div class="post-Header">
-            <ul class="nav">
-                <a class="avatar" href="#"><img src="images/person.png" width="50" height="50" alt="My picture"></a>
-                <li><a href="#">Name</a></li>
-                <li><a href="#">Date</a></li>
-            </ul>
+<div class="container">
+    <div class="banner">
+        <p>Here i will put a picture</p>
+    </div>
+    
+    <div class="middle">
+        <div class="post">
+            <div class="post-Header">
+                <ul class="post-nav">
+                    <a class="avatar" href="#"><img src="images/person.png" width="50" height="50" alt="My picture"></a>
+                    <li><a href="#">Name</a></li>
+                    <li><a href="#">Sep 30, 2022</a></li>
+                </ul>
+            </div>
+            <div class="post-body">
+                <p>Sorry to inform you but the concert will be cancelled indefinetly.</p>
+            </div>
         </div>
-        <div class="post-body">
-            <p>Sorry to inform you but the concert will be cancelled indefinetly.</p>
+        <div class="post">
+            <div class="post-Header">
+                <ul class="post-nav">
+                    <a class="logo" href="#"><img src="images/person.png" width="50" height="50" alt="My picture"></a>
+                    <li><a href="#">Name</a></li>
+                    <li><a href="#">Sep 24, 2022</a></li>
+                </ul>
+            </div>
+            <div class="post-body">
+                <a class="post-pictures" href="#"><img src="images/Tartu.jpg" alt="My photo"></a>
+                <p>this is a picture i took in 2022 april.</p>
+                <a class="reactions" href="#"><img src="images/like button.png" alt="emote"></a>
+            </div>
         </div>
     </div>
-    <div class="post">
-        <div class="post-Header">
-            <ul class="nav">
-                <a class="logo" href="#"><img src="images/person.png" width="50" height="50" alt="My picture"></a>
-                <li><a href="#">Name</a></li>
-                <li><a href="#">Date</a></li>
-            </ul>
-        </div>
-        <div class="post-body">
-            <a class="picture" href="#"><img src="images/Tartu.jpg" width="200" height="100" alt="My photo"></a>
-            <p>this is a picture i took in 2022 april.</p>
-            <a class="picture" href="#"><img src="images/like button.jpg" width="25" height="25" alt="emote"></a>
-        </div>
+    
+    <div class="banner">
+        <p>Here we will put the information regarding those who make the project.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-</div>
-
-<div class="right">
-    <p>Here we will put the information regarding those who make the project</p>
 </div>
 
 <footer class="footer">
-    <ul class="bottom">
+    <ul class="nav">
         <li>
             <a href="https://ois2.ut.ee/">OIS</a>
         </li>
