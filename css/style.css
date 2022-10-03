@@ -109,18 +109,33 @@ li {
     align-items: center;
     justify-content: space-between;
 }
-
-
-/*Post header links' backgrounds change when hovering over them.*/
-.post-nav li a:hover {
-    background-color: #d9d8d8;
+.post-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-Header a {
+    padding: 10px;
 }
 
+/*Post header links' backgrounds change when hovering over them.*/
+.avatar ~ a:hover {
+    background-color: #cecfd1;
+    border-radius: 10px;
+}
+.post-Header > a:hover {
+    background-color: #cecfd1;
+    border-radius: 10px;
+}
+
+/*Sets the sizes of pictures in the posts.*/
 .post-pictures {
     width: 100%;
     height: 100%;
 }
 
+/*Sets the sizes of likes.*/
 .reactions {
     width: 35px;
     height: 35px;
@@ -149,7 +164,7 @@ body main {
 }
 
 /*Positions Post body and Select file text to the left on the addPost page.*/
-form div {
+form > div {
     text-align: left;
     padding: 5px;
 }
