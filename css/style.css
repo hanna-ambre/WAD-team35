@@ -120,11 +120,11 @@ li {
 }
 
 /*Post header links' backgrounds change when hovering over them.*/
-.avatar ~ a:hover {
+.avatar ~ a:hover { /*Applies to the name of a post (after avatar).*/
     background-color: #cecfd1;
     border-radius: 10px;
 }
-.post-Header > a:hover {
+.post-Header > a:hover { /*Applies to the date of a post (not to post-nav).*/
     background-color: #cecfd1;
     border-radius: 10px;
 }
