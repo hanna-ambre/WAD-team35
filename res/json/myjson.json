@@ -70,5 +70,12 @@
             "text" : "That was such a weird exchange.",
             "image": "pool.jpg"
         }
-    ]
+    ],
+    "User":[
+        {
+            "avatar": "./images/person.png",
+            "name": "Torsten",
+            "mail": "Torsten.Anfinson@college.edu"
+        }
+        ]
 }

@@ -15,8 +15,14 @@
         <li id="separating_bar">|</li>
         <li><a href="addPost.html">AddPost</a></li>
     </ul>
-
-    <a class="logo" href="#"><img src="images/me.png" width="50" height="50" alt="My picture"></a>
+    <div class="dropdown">
+        <button class="logoButton" onClick="change_dropdown_menu()"><img src="images/me.png" width="50" height="50" alt="My picture"></button>
+        <div id="Dropdown" class="dropdown-content">
+            <a id="menuOption1" class="name" href="#">Ragnar</a>
+            <a id="menuOption2" class="mail" href="#">RagnarLodbrok@yahoo-inc.com</a>
+            <a id="menuOption3" class="logout" href="#">logout</a>
+        </div>
+    </div>
 </header>
 
 <div class="container">
@@ -107,5 +113,21 @@
     <a class="logo" href="#"><img src="images/Ülikooli_logo.png" width="100" height="50" alt="official logo"></a>
 </footer>
 
+<!-- When the user clicks on the button,
+toggle between hiding and showing the dropdown content -->
+
+<!-- Close the dropdown menu if the user clicks outside of it-->
+<script>
+function change_dropdown_menu() {
+console.log("clicked")
+if (document.getElementById("Dropdown").style.display=="flex"){
+document.getElementById("Dropdown").style.display="none";
+}
+else{
+document.getElementById("Dropdown").style.display="flex";
+}
+}
+
+</script>
 </body>
 </html>
