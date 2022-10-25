@@ -3,10 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 1 - add post</title>
     <link rel="stylesheet" href="res/css/style.css">
+    <script type="text/javascript" src="./src/js/script.js"></script>
+    <title>Homework 1 - add post</title>
   </head>
 
+  <body>
   <header class="header">
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
@@ -20,26 +22,23 @@
       </div>
     </div>
   </header>
-
-  <body>
-    <main>
-      <div class="box_center">
-        <form action="index.html">
-          <div>
-            <label for="text_box">Post body </label>
-            <input type="text" id="text_box" name="post" placeholder="textarea"><br>
-          </div>
-          <div>
-            <label>Select file</label>
-            <label for="uploading-file" class="gray_button">Choose file</label>
-            <input id="uploading-file" type="file"/>
-          </div>
-          <div class="more_padding">
-            <input class="blue_button" type="submit" value="Create post">
-          </div>
-        </form>
-      </div>
-    </main>
-    <script src="./src/js/script.js"></script>
+  <main>
+    <div class="box_center">
+      <form action="index.html">
+        <div>
+          <label for="text_box">Post body </label>
+          <input type="text" id="text_box" name="post" placeholder="textarea"><br>
+        </div>
+        <div>
+          <label>Select file</label>
+          <label for="uploading-file" class="gray_button">Choose file</label>
+          <input id="uploading-file" type="file"/>
+        </div>
+        <div class="more_padding">
+          <input class="blue_button" type="submit" value="Create post">
+        </div>
+      </form>
+    </div>
+  </main>
   </body>
 </html>

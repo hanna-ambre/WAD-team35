@@ -1,48 +1,47 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 1 - log in</title>
-    <link rel="stylesheet" href="res/css/style.css">
-  </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="res/css/style.css">
+        <script type="text/javascript" src="./src/js/script.js"></script>
+        <title>Homework 1 - log in</title>
+    </head>
 
-  <header class="header">
-    <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-      </ul>
-      <div class="dropdown">
-          <button class="logoButton" onClick="change_dropdown_menu()"><img src="images/ragnar.jpg" width="50" height="50" alt="My picture"></button>
-          <div id="Dropdown" class="dropdown-content">
-              <a id="menuOption1" class="name" href="#">Ragnar</a>
-              <a id="menuOption2" class="mail" href="#">RagnarLodbrok@yahoo-inc.com</a>
-              <a id="menuOption3" class="logout" href="#">logout</a>
-          </div>
-      </div>
-  </header>
-
-  <body>
+    <body>
+    <header class="header">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+        <div class="dropdown">
+            <button class="logoButton" onClick="change_dropdown_menu()"><img src="images/ragnar.jpg" width="50" height="50" alt="My picture"></button>
+            <div id="Dropdown" class="dropdown-content">
+                <a id="menuOption1" class="name" href="#">Ragnar</a>
+                <a id="menuOption2" class="mail" href="#">RagnarLodbrok@yahoo-inc.com</a>
+                <a id="menuOption3" class="logout" href="#">logout</a>
+            </div>
+        </div>
+    </header>
     <main>
         <div class="box_center">
-          <h4> Welcome to PostIt</h4>
-          <a class="blue_text"  href="#">Create an account</a>
-          <span>or<br>Please log in</span>
-          <form action="index.html">
-           <div>
-              <input type="text" name="email" placeholder="Email" required>
-            </div>
-            <div>
-              <input type="text" name="password" placeholder="Password" required>
-            </div>
-            <div class="more_padding">
-              <input class="blue_button" type="submit" value="Log in">
-            </div>
-            <div class="more_padding">
-              <a class="blue_text" href="#">Forget password</a>
-            </div>
-          </form>
+            <h4> Welcome to PostIt</h4>
+            <a class="blue_text"  href="#">Create an account</a>
+            <span>or<br>Please log in</span>
+            <form action="index.html">
+                <div>
+                    <input type="text" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <input type="text" name="password" placeholder="Password" required>
+                </div>
+                <div class="more_padding">
+                    <input class="blue_button" type="submit" value="Log in">
+                </div>
+                <div class="more_padding">
+                    <a class="blue_text" href="#">Forget password</a>
+                </div>
+            </form>
         </div>
     </main>
-    <script src="res/js/script.js"></script>
-  </body>
+    </body>
 </html>
