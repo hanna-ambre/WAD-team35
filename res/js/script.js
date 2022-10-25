@@ -24,3 +24,12 @@ window.onload = function() {
 
 }
 */
+function change_dropdown_menu() {
+console.log("clicked")
+if (document.getElementById("Dropdown").style.display=="flex"){
+document.getElementById("Dropdown").style.display="none";
+}
+else{
+document.getElementById("Dropdown").style.display="flex";
+}
+}
