@@ -1,81 +1,72 @@
-{
-    "Posts":[
-        {
-            "avatar": "./images/person.png",
-            "name": "Andre",
-            "date": "25.09.2021",
-            "text": "Just trying out this new webpage I found", 
-            "image": "./images/mountains.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Jens",
-            "date": "01.10.2021",
-            "text" : "This seems like a nice website, wonder who's designed it!",
-            "image": "./images/forest.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Julia",
-            "date": "05.10.2021",
-            "text" : "I woudln't know. But writing example text like this is kind of exhausting.",
-            "image": "./images/Burjkhalifa.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Pia",
-            "date": "12.10.2021",
-            "text" : "Yeah that's right, maybe you should use Lorem ipsum?",
-            "image": "./images/Raid shadow legends.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Amelie",
-            "date": "29.10.2021",
-            "text" : "Lorem ipsum?",
-            "image": "Tartu.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Nicklas",
-            "date": "01.11.2021",
-            "text" : "Yeah just like this: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "image": "scorpion.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Dennis",
-            "date": "04.11.2021",
-            "text" : "Damn. I like the way you speak, boy.",
-            "image": "tree.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Jana",
-            "date": "19.11.2021" ,
-            "text" : "Seems like a bunch of gibberish to me.",
-            "image": "dog.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Lara",
-            "date": "25.11.2021",
-            "text" : "Yeah guys, let's maybe not?",
-            "image": "cat.jpg"
-        },
-        {
-            "avatar": "./images/person.png",
-            "name": "Torsten",
-            "date": "30.11.2021",
-            "text" : "That was such a weird exchange.",
-            "image": "pool.jpg"
-        }
-    ],
-    "User":[
-        {
-            "avatar": "./images/person.png",
-            "name": "Torsten",
-            "mail": "Torsten.Anfinson@college.edu"
-        }
-        ]
-}
+[
+    {
+        "avatar": "./images/person.png",
+        "name": "Andre",
+        "date": "25.09.2021",
+        "text": "Just trying out this new webpage I found",
+        "image": "./images/mountains.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Jens",
+        "date": "01.10.2021",
+        "text" : "This seems like a nice website, wonder who's designed it!",
+        "image": "./images/forest.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Julia",
+        "date": "05.10.2021",
+        "text" : "I woudln't know. But writing example text like this is kind of exhausting.",
+        "image": "./images/Burjkhalifa.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Pia",
+        "date": "12.10.2021",
+        "text" : "Yeah that's right, maybe you should use Lorem ipsum?",
+        "image": "./images/Raid shadow legends.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Amelie",
+        "date": "29.10.2021",
+        "text" : "Lorem ipsum?",
+        "image": "./images/Tartu.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Nicklas",
+        "date": "01.11.2021",
+        "text" : "Yeah just like this: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": "./images/scorpion.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Dennis",
+        "date": "04.11.2021",
+        "text" : "Damn. I like the way you speak, boy.",
+        "image": "./images/tree.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Jana",
+        "date": "19.11.2021" ,
+        "text" : "Seems like a bunch of gibberish to me.",
+        "image": "./images/dog.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Lara",
+        "date": "25.11.2021",
+        "text" : "Yeah guys, let's maybe not?",
+        "image": "./images/cat.jpg"
+    },
+    {
+        "avatar": "./images/person.png",
+        "name": "Torsten",
+        "date": "30.11.2021",
+        "text" : "That was such a weird exchange.",
+        "image": "./images/pool.jpg"
+    }
+]

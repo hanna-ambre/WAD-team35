@@ -129,6 +129,12 @@ li {
     border-radius: 10px;
 }
 
+/*Sets the sizes of the posts' avatars.*/
+.avatar img {
+    width: 50px;
+    height: 50px;
+}
+
 /*Sets the sizes of pictures in the posts.*/
 .post-pictures {
     width: 100%;
