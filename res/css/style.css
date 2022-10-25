@@ -249,6 +249,8 @@ input[type="file"] {
 background-color: #bfbfbf;
   color: white;
   padding: 16px;
+  margin-right: 8px;
+  border-radius: 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
