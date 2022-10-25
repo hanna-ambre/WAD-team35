@@ -1,9 +1,7 @@
 window.onload = function() {
 
 
-//  JSON file hosted on jsonbin.io https://api.jsonbin.io/v3/b/63526b7a2b3499323be5f46d
-
-    //fetch('https://api.jsonbin.io/v3/b/63526b7a2b3499323be5f46d'){
+    //fetch('https://api.npoint.io/301cabff92cca1e31c1d')
     fetch('res/json/myjson.json')
         .then((response) => response.json())
         .then(posts => {
