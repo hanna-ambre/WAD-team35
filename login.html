@@ -11,7 +11,14 @@
     <ul class="nav">
         <li><a href="index.html">Home</a></li>
       </ul>
-    <a class="logo" href="#"><img src="images/me.png" width="50" height="50" alt="My picture"></a>
+      <div class="dropdown">
+          <button class="logoButton" onClick="change_dropdown_menu()"><img src="images/me.png" width="50" height="50" alt="My picture"></button>
+          <div id="Dropdown" class="dropdown-content">
+              <a id="menuOption1" class="name" href="#">Ragnar</a>
+              <a id="menuOption2" class="mail" href="#">RagnarLodbrok@yahoo-inc.com</a>
+              <a id="menuOption3" class="logout" href="#">logout</a>
+          </div>
+      </div>
   </header>
 
   <body>
@@ -36,5 +43,17 @@
           </form>
         </div>
     </main>
+    <script>
+function change_dropdown_menu() {
+console.log("clicked")
+if (document.getElementById("Dropdown").style.display=="flex"){
+document.getElementById("Dropdown").style.display="none";
+}
+else{
+document.getElementById("Dropdown").style.display="flex";
+}
+}
+
+</script>
   </body>
 </html>
